@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(91, 91, 245), rgb(253, 148, 148));
+}
+
+.App{
+    background-color:#3A3F49;
+    padding: 40px 30px;
+    text-align: center;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.labelInput{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+.labelInput input{
+    background-color:#2C3036 ;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    color: white;
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin: 10px 0px;
+    border: none;
+    background-color: #333333;
+    transition: all ease-in 0.3s;
+}
+
+.button:hover{
+    background-color: #1f1e1e;
+    font-size: 14px;
+}
+
+.listas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 30%;
+    background-color: #383838;
+}
